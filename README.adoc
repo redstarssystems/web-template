@@ -1,4 +1,4 @@
-== Web applicatioon template for clj-new
+== Web application template for clj-new
 
 This web template is based on clj-new can run common tasks (as Leiningen):
 
