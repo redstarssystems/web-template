@@ -1,0 +1,9 @@
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure  {:mvn/version "1.10.1"}
+         seancorfield/clj-new {:mvn/version "0.8.6"}}
+ :aliases
+        {:repl   {:extra-deps  {nrepl                {:mvn/version "0.6.0"}
+                                hashp                {:mvn/version "0.1.0"}}
+                  :jvm-opts    []
+                  :extra-paths ["dev/src" "resources" "test" "target/classes"]
+                  :main-opts   ["--main" "nrepl.cmdline"]}}}

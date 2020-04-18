@@ -1,0 +1,38 @@
+== Web applicatioon template for clj-new
+
+This web template is based on clj-new can run common tasks (as Leiningen):
+
+* build jar, uberjar
+* compile java sources,
+* build standalone apps (using jlink)
+* create pom,
+* sign jar file
+* local install to .m2
+* deploy jar to clojars
+* run tests using kaocha
+
+See also https://github.com/redstarssystems/lib-template.git for library template.
+
+**Warning**: tested on Mac & linux.
+
+== Usage
+
+1. Install latest clj-new (0.8.6+) from https://github.com/seancorfield/clj-new as :new alias to ~/.clojure/deps.edn.
+
+2. (optional) Clone this repo to your local folder (e.g. ~/projects/web-template)
+
+3. Create new project from local template (step 2 is required):
++
+`$ clj -A:new ~/projects/web-template::web-template my.example/webapp01` 
++
+or, create new project from Github template: 
++
+`$ clj -A:new https://github.com/redstarssystems/web-template@e6ae1e4d330f7c447fa52b9e418d5fe0c46b7d87 my.example/webapp01`
+
+4. Follow the README.adoc in root project folder.
+
+== License
+
+Copyright © 2020 Mike Ananev
+
+Distributed under the Eclipse Public License 2.0 or (at your option) any later version.
