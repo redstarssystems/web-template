@@ -82,7 +82,7 @@
                         :jvm-opts    []
                         :main-opts   ["--main" "org.rssys.pbuilder.core"]}
 
-             :test     {:extra-deps  {lambdaisland/kaocha           {:mvn/version "1.0-632"}
+             :test     {:extra-deps  {lambdaisland/kaocha           {:mvn/version "1.0.632"}
                                       lambdaisland/kaocha-cloverage {:mvn/version "1.0-45"}
                                       healthsamurai/matcho          {:mvn/version "0.3.7"}}
                         :extra-paths ["resources" "test" "test/resources"]
