@@ -27,7 +27,7 @@ See also https://github.com/redstarssystems/lib-template.git for library templat
 +
 or, create new project from Github template: 
 +
-`$ clj -A:new https://github.com/redstarssystems/web-template@a0b4f443efa5a62ef7c4035fc044bd02c3c4f9c3 my.example/webapp01`
+`$ clj -A:new https://github.com/redstarssystems/web-template@7df293e35bb9ce70718f1d0feb557e8f2440fc05 my.example/webapp01`
 
 4. Follow the README.adoc in root project folder.
 
