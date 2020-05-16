@@ -8,5 +8,5 @@
   (r/as-success
     (templates/main
       [:div.jumbotron.text-center
-       [:h2 "webapp01 index page"]])))
+       [:h2 "index page"]])))
 
