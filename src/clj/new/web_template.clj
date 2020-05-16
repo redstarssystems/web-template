@@ -13,7 +13,7 @@
       ["resources/log4j2.xml" (render "resources/log4j2.xml" data)]
       ["resources/public/index.html" (render "resources/public/index.html" data)]
       ["resources/public/css/app.css" (render "resources/public/css/app.css" data)]
-      ["resources/public/img/admin-sign.png" (render "resources/public/img/admin-sign.png" data)]
+      ["resources/public/img/admins-sign.png" (render "resources/public/img/admins-sign.png" data)]
       ["resources/public/img/stop-sign.png" (render "resources/public/img/stop-sign.png" data)]
       ["resources/public/css/bootstrap.min.css" (render "resources/public/css/bootstrap.min.css" data)]
       ["resources/public/js/jquery-3.4.1.slim.min.js" (render "resources/public/js/jquery-3.4.1.slim.min.js" data)]
