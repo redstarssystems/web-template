@@ -61,7 +61,7 @@
              :run      {:extra-paths ["resources"]
                         :jvm-opts    ["-DLOG4J_CONFIGURATION_FILE=resources/log4j2.xml"
                                       "-XX:+HeapDumpOnOutOfMemoryError" "-XX:HeapDumpPath=./"]
-                        :main-opts   ["--main" "my.example.webapp01.core"]}
+                        :main-opts   ["--main" "{{namespace}}.core"]}
 
              :repl     {:extra-deps  {nrepl                       {:mvn/version "0.7.0"}
                                       healthsamurai/matcho        {:mvn/version "0.3.7"}
