@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [matcho.core :refer [match]]
             [unifier.response :as r]
-            [my.example.webapp01.web.middleware.security :as sut]))
+            [{{namespace}}.web.middleware.security :as sut]))
 
 (deftest admin-network?-test
   (match (#'sut/admin-network? ["127.0.0.0/8"] "127.0.0.3") true)
