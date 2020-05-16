@@ -30,7 +30,7 @@ See also:
 +
 or, create new project from Github template: 
 +
-`$ clj -A:new https://github.com/redstarssystems/web-template@19670937086079076bf604c9c5cd46763d254e0e my.example/webapp01`
+`$ clj -A:new https://github.com/redstarssystems/web-template@e7c5c4d4275b4fe6b870c11f2824e2e04d5a1607 my.example/webapp01`
 
 4. Follow the README.adoc in root project folder.
 
