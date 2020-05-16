@@ -70,7 +70,10 @@
                                       criterium                   {:mvn/version "0.4.5"}
                                       hashp                       {:mvn/version "0.1.1"}
                                       org.clojure/tools.namespace {:mvn/version "1.0.0"}}
-                        :jvm-opts    ["-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"]
+                        :jvm-opts    [
+                                      ;; uncomment this if you want to debug in IntelliJ IDEA
+                                      ;;"-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"
+                                      ]
                         :extra-paths ["dev/src" "resources" "test"]
                         :main-opts   ["--main" "nrepl.cmdline"]}
 
